@@ -1,0 +1,33 @@
+.formProduct {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  background: rgba(0, 230, 172, 0.3);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 10px -6px 5px -10px rgba(0, 0, 0, 0.09);
+  box-shadow: 10px -6px 5px -10px rgba(0, 0, 0, 0.09);
+  width: 30%;
+}
+
+input {
+  padding: 3px 0;
+  margin: 5px 0;
+}
+
+.btnSubmit {
+  padding: 7px 10px;
+  margin: 10px 0;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

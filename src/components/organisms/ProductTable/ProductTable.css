@@ -1,0 +1,33 @@
+table {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: rgba(102, 165, 173, 0.6);
+  -webkit-box-shadow: 10px -6px 5px -6px rgba(7, 87, 91, 0.23);
+  box-shadow: 10px -6px 5px -6px rgba(7, 87, 91, 0.23);
+}
+
+.tableHeader {
+  width: 100%;
+  display: flex;
+}
+
+.headerElements {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerElement {
+  padding: 15px 0;
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0;
+}
